@@ -1,68 +1,74 @@
 * {
-    list-style-type:none;
+  list-style-type: none;
 }
 
 body {
-    background: #F09819;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #EDDE5D, #F09819);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #EDDE5D, #F09819); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #f09819; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #edde5d,
+    #f09819
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #edde5d,
+    #f09819
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 header {
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    color: white;
-    font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: white;
+  font-weight: bold;
 
-    h1 {
-        font-size: 50px;
-    }
+  h1 {
+    font-size: 50px;
+  }
 }
 
 .c-form {
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .c-todo-input {
-    height: 50px;
+  height: 50px;
 }
 
 .c-card {
-    margin: 50px;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+  margin: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .c-card-item {
-    position: relative;
-    width: 350px;
-    height: 250px;
-    margin-bottom: 45px;
-    border: 1px solid black;
-    margin-right: 10px;
+  position: relative;
+  width: 350px;
+  height: 250px;
+  margin-bottom: 45px;
+  border: 1px solid black;
+  margin-right: 10px;
 }
 
 .c-card-title {
-    text-align: center;
-    background-color: blanchedalmond;
-    margin: 0;
-    text-transform: capitalize;
+  text-align: center;
+  background-color: blanchedalmond;
+  margin: 0;
+  text-transform: capitalize;
 }
 
 .c-card-img {
-    width: 100%;
-    height: calc(100% - 45px);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 100%;
+  height: calc(100% - 45px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-    img {
-        height: 150px;
-    }
+  img {
+    height: 150px;
+  }
 }
-
-
