@@ -1,7 +1,6 @@
 import React from 'react';
 
 const CardList = ({ items, inputText }) => {
-
     const listItems = items.filter((item) => {
         if(inputText === "") {
             return item
@@ -23,7 +22,6 @@ const CardList = ({ items, inputText }) => {
         <div className="c-card">
             {listItems}
         </div>
-
     )
 }
 

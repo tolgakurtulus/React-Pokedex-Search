@@ -11,12 +11,13 @@ function App() {
 
   useEffect(() => {
     axiosGet();
-  });
+  }, []);
 
   const axiosGet = () => {
     axios
       .get(`https://pokeapi.co/api/v2/pokemon/?limit=898`)
       .then((response) => {
+        console.log("~ response", response);
         setItems(response.data.results);
       })
       .catch((error) => {
